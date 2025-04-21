@@ -1,4 +1,57 @@
-body{
-  background-color: #f0f0f0;
-  
+
+.body_cv{
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#img_perfil{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%; 
+  border: 2px solid #00FF00; 
+}
+
+.header_cv{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; 
+  border-bottom: 2px solid #444444;
+}
+
+/*Clase informacion de perfil mas las ID de los textos */
+.info_perfil{
+  padding: 20px;
+  text-align: center;
+}
+
+#info_perfil_h1{
+  font-size: 35px;
+}
+#info_perfil_h2{
+  font-size: 17px;
+  color: #B0B0B0;
+}
+
+/*Clase Links del header */
+.links_header{
+  display:flex;
+  flex-direction: column;
+  gap: 12px; /*espaciado entre links*/
+  text-align: left; 
+  padding-top: 25px;
+}
+.links_header a{
+  color: #008CBA;
+  text-decoration: none;
+}
+.links_header a:hover{
+  color: #00FF00;
+}
+
+
+main{
+  min-height: 400px;
+  background-color: #2B2B2B;
+  padding: 20px;
 }
