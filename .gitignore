@@ -1,0 +1,6 @@
+frontend/*
+!frontend/cv/
+!frontend/cv/index.html
+!frontend/cv/imagenes
+!frontend/cv/estilos
+
