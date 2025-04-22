@@ -1,6 +1,6 @@
 # CV Estilo Linux
 **Estado del Proyecto:** En desarrollo
-Este proyecto es un cv con un toque de estilo linux, Esta siendo construido con HTML y CSS, futuramente con Javascript,El cv
+Este proyecto es un cv con un toque de estilo linux, Está siendo construido con HTML, CSS y en el futuro con JavaScript,El cv
 esta inspirado en la linea de comandos de una tipica terminal linux, para no hacerlo tan estatico y aburrido.
 
 ## TO DO
@@ -25,3 +25,9 @@ Mostrar y Avanzar en mis conocimientos de frontend de una forma entretenida.
 -[]Agregar animaciones 
 -[]Mostrar respuestas simuladas con estilo tipo consola
 -Mas ideas pendientes
+
+## Cómo usar este proyecto
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/iTefflon/cv.git
+
