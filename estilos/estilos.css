@@ -1,8 +1,13 @@
-
 .body_cv{
   background-color: #1E1E1E;
   color: #FFFFFF;
   font-family: 'Roboto Mono', monospace;
+}
+
+#icon{
+  padding-right: 4%;
+  padding-top: 5%;
+
 }
 
 #img_perfil{
@@ -14,15 +19,15 @@
 
 .header_cv{
   display: flex;
-  justify-content: space-between;
-  padding: 20px; 
+  justify-content: space-around;
+  padding: 2%; 
   border-bottom: 2px solid #444444;
 }
 
 /* Clase informacion de perfil mas las ID de los textos */
 .info_perfil{
-  padding: 20px;
-  text-align: center;
+  text-align: center; 
+  
 }
 
 #info_perfil_h1{
@@ -33,13 +38,8 @@
   color: #B0B0B0;
 }
 
-/*Clase Links del header */
-.links_header{
-  display:flex;
-  text-align: left; 
-  padding-top: 5%;
-  padding-right: 5%;
-}
+
+
 .links_header a{
   color: #008CBA;
   text-decoration: none;
@@ -47,6 +47,9 @@
 .links_header a:hover{
   color: #00FF00;
 }
+
+
+
 
 /* main */
 main{
@@ -63,6 +66,7 @@ main{
 .seccion1_cv{
   width: 25%;
   padding: 10px;
+  text-align: left;
 }
 
 .seccion2_cv{
@@ -77,6 +81,8 @@ footer{
 .footer_cv{
   display: flex;
   justify-content: space-between;
+  padding-right: 8%;
+  padding-left: 8%;
 }
 
 .links_footer{
@@ -84,13 +90,8 @@ footer{
   text-decoration: none;
 }
 
-.links_footer a{
+.footer_cv a:hover{
   color: #00FF00;
 }
 
-#link1{
-  padding-left: 10%;
-}
-#link2{
-  padding-right: 10%;
-}
+
