@@ -7,7 +7,7 @@ esta inspirado en la linea de comandos de una tipica terminal linux, para no hac
 -[x]Estructura base HTML
 -[x]Estilos CSS Header
 -[X]Agregado de section HTML
--[]Estilos CSS del cuerpo
+-[x]Estilos CSS del cuerpo
 -[]Comandos Interactivos con JS
 *Pendiente Mas agregados
 
