@@ -14,6 +14,7 @@ esta inspirado en la linea de comandos de una tipica terminal linux, para no hac
 ## Tecnologias
 -HTML5
 -CSS3
+-Bootstrap
 
 ## Tecnologias por agregar
 -[]Javascript
