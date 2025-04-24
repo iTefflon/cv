@@ -2,12 +2,7 @@
   background-color: #1E1E1E;
   color: #FFFFFF;
   font-family: 'Roboto Mono', monospace;
-}
-
-#icon{
-  padding-right: 4%;
-  padding-top: 5%;
-
+  
 }
 
 #img_perfil{
@@ -24,7 +19,6 @@
   border-bottom: 2px solid #444444;
 }
 
-/* Clase informacion de perfil mas las ID de los textos */
 .info_perfil{
   text-align: center; 
   
@@ -52,25 +46,33 @@
 
 
 /* main */
-main{
-  min-height: 400px;
+main{ 
   background-color: #2B2B2B;
-  padding: 20px;
+  padding: 5%;
 }
 
 .contenedor_main{
   display: flex;
-
 }
 
+.text_seccion2{
+  display: flex;
+  align-items: center;
+  gap: 1.5%; 
+}
+
+.text_seccion2_p{
+  padding-left: 4%;
+} 
+
 .seccion1_cv{
-  width: 25%;
-  padding: 10px;
+  width: 27%;
+  padding-right: 3%;
   text-align: left;
 }
 
 .seccion2_cv{
-  width: 75%;
+  width: 67%;
 }
 /* footer */
 footer{
@@ -92,6 +94,17 @@ footer{
 
 .footer_cv a:hover{
   color: #00FF00;
+   transition-duration:0.5s ; 
 }
+
+/*iconos*/
+i {
+  color: #2fbe2d ;
+  
+}
+/*lista*/
+ul {
+  list-style: none;
+};
 
 
