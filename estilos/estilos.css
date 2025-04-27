@@ -1,9 +1,9 @@
 .body_cv{
-  background-color: #1E1E1E;
-  color: #FFFFFF;
+  background-color: #121212;
+  color: #f5f5f5;
   font-family: 'Roboto Mono', monospace;
-  
 }
+
 
 #img_perfil{
   width: 150px;
@@ -14,6 +14,7 @@
 
 .header_cv{
   display: flex;
+  background-color: #1E1E1E;
   justify-content: space-around;
   padding: 2%; 
   border-bottom: 2px solid #444444;
