@@ -4,25 +4,30 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+.div_img{
+  display: flex;
+  padding-left: 5%;
+}
 
-#img_perfil{
-  width: 150px;
-  height: 150px;
-  border-radius: 100%; 
+.img_perfil{
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%; 
   border: 2px solid #00FF00; 
+  object-fit: cover; 
 }
 
 .header_cv{
   display: flex;
   background-color: #1E1E1E;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
   padding: 2%; 
   border-bottom: 2px solid #444444;
 }
 
 .info_perfil{
-  text-align: center; 
-  
+  text-align:center; 
 }
 
 #info_perfil_h1{
@@ -31,16 +36,6 @@
 #info_perfil_h2{
   font-size: 17px;
   color: #B0B0B0;
-}
-
-
-
-.links_header a{
-  color: #008CBA;
-  text-decoration: none;
-}
-.links_header a:hover{
-  color: #00FF00;
 }
 
 
